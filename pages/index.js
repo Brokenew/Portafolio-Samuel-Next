@@ -470,7 +470,6 @@ const Home = (props) => {
           <div className="home-client-list"></div>
         </div>
         <footer className="home-footer">
-          <img alt="image" src="/yo-800w.jpg" className="home-image7" />
           <div className="home-information">
             <div className="home-details4">
               <div className="home-header19">
@@ -1235,11 +1234,6 @@ window.addEventListener('scroll', () => {
             display: flex;
             justify-content: center;
           }
-          .home-image7 {
-            width: 50%;
-            height: 689px;
-            object-fit: cover;
-          }
           .home-information {
             gap: var(--dl-layout-space-twounits);
             display: flex;
@@ -1564,11 +1558,6 @@ window.addEventListener('scroll', () => {
             .home-footer {
               flex-direction: column;
             }
-            .home-image7 {
-              width: 324px;
-              height: 318px;
-              align-self: center;
-            }
             .home-information {
               gap: var(--dl-layout-space-threeunits);
               width: 100%;
@@ -1642,14 +1631,6 @@ window.addEventListener('scroll', () => {
             .home-container2 {
               width: 659px;
             }
-            .home-image7 {
-              right: 68px;
-              width: 353px;
-              bottom: 67px;
-              height: 349px;
-              align-self: center;
-              margin-top: 0px;
-            }
             .home-text106 {
               color: rgb(255, 255, 255);
               font-style: normal;
@@ -1664,13 +1645,6 @@ window.addEventListener('scroll', () => {
               align-items: flex-start;
               flex-direction: column;
               justify-content: flex-start;
-            }
-            .home-image7 {
-              right: 42px;
-              width: 216px;
-              bottom: 43px;
-              height: 213px;
-              align-self: center;
             }
           }
         `}
