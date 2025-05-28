@@ -470,6 +470,7 @@ const Home = (props) => {
           <div className="home-client-list"></div>
         </div>
         <footer className="home-footer">
+          <img alt="image" src="/yo-800w.jpg" className="home-image7" />
           <div className="home-information">
             <div className="home-details4">
               <div className="home-header19">
@@ -500,7 +501,6 @@ const Home = (props) => {
               <span className="social">Behance</span>
             </div>
           </div>
-          <img alt="image" src="/yo-800w.jpg" className="home-image7" />
         </footer>
         <div>
           <div className="home-container4">
@@ -1235,6 +1235,11 @@ window.addEventListener('scroll', () => {
             display: flex;
             justify-content: center;
           }
+          .home-image7 {
+            width: 50%;
+            height: 689px;
+            object-fit: cover;
+          }
           .home-information {
             gap: var(--dl-layout-space-twounits);
             display: flex;
@@ -1313,11 +1318,6 @@ window.addEventListener('scroll', () => {
             flex-wrap: wrap;
             align-items: flex-start;
             flex-direction: row;
-          }
-          .home-image7 {
-            width: 50%;
-            height: 689px;
-            object-fit: cover;
           }
           .home-container4 {
             display: contents;
@@ -1564,6 +1564,11 @@ window.addEventListener('scroll', () => {
             .home-footer {
               flex-direction: column;
             }
+            .home-image7 {
+              width: 324px;
+              height: 318px;
+              align-self: center;
+            }
             .home-information {
               gap: var(--dl-layout-space-threeunits);
               width: 100%;
@@ -1609,12 +1614,6 @@ window.addEventListener('scroll', () => {
               gap: var(--dl-layout-space-unit);
               flex-direction: column;
             }
-            .home-image7 {
-              right: var(--dl-layout-space-fourunits);
-              width: 463px;
-              height: 458px;
-              position: fixed;
-            }
           }
           @media (max-width: 767px) {
             .home-navbar-interactive {
@@ -1643,16 +1642,18 @@ window.addEventListener('scroll', () => {
             .home-container2 {
               width: 659px;
             }
-            .home-text106 {
-              color: rgb(255, 255, 255);
-              font-style: normal;
-              font-weight: 500;
-            }
             .home-image7 {
               right: 68px;
               width: 353px;
               bottom: 67px;
               height: 349px;
+              align-self: center;
+              margin-top: 0px;
+            }
+            .home-text106 {
+              color: rgb(255, 255, 255);
+              font-style: normal;
+              font-weight: 500;
             }
           }
           @media (max-width: 479px) {
@@ -1669,6 +1670,7 @@ window.addEventListener('scroll', () => {
               width: 216px;
               bottom: 43px;
               height: 213px;
+              align-self: center;
             }
           }
         `}
